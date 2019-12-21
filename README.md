@@ -1,5 +1,5 @@
 ## Travel Planner Project (WEBSITE)
-**django -based application
+**django -based application**
 
 ## Setting up the project
 
