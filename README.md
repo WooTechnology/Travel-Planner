@@ -10,7 +10,7 @@
 To setup the project locally read these wiki pages and follow the instructions:
 
  - [Fork, Clone and Remote]
- - [Open project in ]
+ - [Open project in Code Editor ]
 
 ## Contributing 
 
