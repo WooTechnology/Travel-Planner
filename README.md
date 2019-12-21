@@ -1,9 +1,5 @@
-## Travel Planner Project
-
-# Mentorship System (WEBSITE)
-
-
-
+## Travel Planner Project (WEBSITE)
+**django -based application
 
 ## Setting up the project
 
