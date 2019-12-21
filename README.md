@@ -9,7 +9,6 @@
 
 [Mentorship System](https://github.com/systers/mentorship-backend) is an application that allows women in tech to mentor each other, on career development topics, through 1:1 relations for a certain period.
 
-This is the Android client for the Mentorship System.
 
 ## Setting up the project
 
