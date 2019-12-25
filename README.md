@@ -1,6 +1,6 @@
 ## Travel Planner Project
 
-# Mentorship System (WEBSITE)
+# Web application (WEBSITE)
 
 
 
