@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>hello</title>
+</head>
+<body>
+	<p>WELCOME TO HOMEPAGE</p>
+
+<!--<div style="text-align:center"><h2>Login</h2></div>
+<div style="text-align:center">
+  <form method="post" id="form_login">
+    <input type="hidden" name="csrf_token">
+    <p><button type="submit">Login</button></p>
+  </form></div>-->
+
+  {% extends 'base.html' %}
+{% block title %}Login{% endblock %}
+{% block content %}
+<div style="text-align:center"><h2>Login</h2></div>
+<div style="text-align:center">
+  <form method="post" id="form_login">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Login</button>
+  </form></div>
+{% endblock %}
+
+</body>
+</html>
