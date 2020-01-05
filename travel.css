@@ -1,11 +1,12 @@
 .navbar-nav .nav-item .nav-link {
-    color: darkslategray
+    color: darkslategray;
+   
 }
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    color: black;
+    color: white;
     font-weight: 600;
-    background-color: lightgrey;
+    background-color: #343A40
 }
 
 .caption3 {
@@ -19,10 +20,71 @@
     font-family: 'Dancing Script', cursive;
 }
 .page-header {
-    font-family: 'Lobster',cursive; 
-   
+    font-family: 'Lobster',cursive;
 }
+
 .jumbotron input {
 padding : 5px ; 
 border-radius: 12pt; 
+
+}
+.cards :hover{
+    opacity: 0.8;
+}
+.cont2 {
+    height:60px;
+    background-color: #46FF46;
+    padding-top:20px;
+    font-weight: 400;
+   
+}
+
+.accBtn{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif; 
+    color :#343A40;
+}
+.accBtn:hover {
+    color: white;
+    font-weight: 500;
+    background-color: #343A40
+}
+
+.question {
+    cursor: pointer;
+    font-weight: 700;
+}
+.map{
+    margin-left:150px;
+  margin-right:0px;
+
+}
+.cont3{
+    background-color: black; 
+    height:440px;
+    margin-right: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+.contact{
+    font-family: monospace;
+    color: white;
+    padding-top:30px;
+}
+.cont4{
+    height:100px;
+    width:480px;
+}
+
+@media only screen and (max-width:600px)
+{
+    .map{
+        margin-left: 10px;
+    }
+    .cont3{
+        height:600px;
+    }
+    
 }
