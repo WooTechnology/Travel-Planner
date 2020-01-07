@@ -22,6 +22,9 @@
 .page-header {
     font-family: 'Lobster',cursive;
 }
+.jumbotron{
+    background: linear-gradient(#E9ECEF,white);
+}
 
 .jumbotron input {
 padding : 5px ; 
@@ -73,18 +76,42 @@ border-radius: 12pt;
     color: white;
     padding-top:30px;
 }
-.cont4{
-    height:100px;
-    width:480px;
+
+/* .headGreen {
+    background-color: rgb(70, 255, 70);
+} */
+.imgR{
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
 }
 
-@media only screen and (max-width:600px)
-{
-    .map{
-        margin-left: 10px;
-    }
-    .cont3{
-        height:600px;
-    }
-    
+.fa{
+    color: red;
+}
+
+.cont4 {
+    border-radius: 70px;
+    background:linear-gradient(#E9ECEF,white);
+    padding:5px;
+}
+.cont6{
+    padding:5px;
+    font-family: 'Dancing Script' , cursive;
+    font-weight: 500;
+    font-size: 30px;
+    opacity: 0.9;
+    background: linear-gradient(rgb(14, 13, 36),rgb(34, 34, 104));
+    color: white;
+    width:320px;
+    border-radius: 120px;
+}
+
+.cont7{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns:2fr 1fr ;
+    background: linear-gradient(rgb(49, 44, 44),black);
+   padding-top:21px;
+  padding-left:370px;
 }
