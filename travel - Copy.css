@@ -1,0 +1,28 @@
+.navbar-nav .nav-item .nav-link {
+    color: darkslategray
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: black;
+    font-weight: 600;
+    background-color: lightgrey;
+}
+
+.caption3 {
+   position: absolute;
+   top:140px;
+   left:-780px; 
+   color:black;
+   font-weight: bold;
+}
+.carousel-caption {
+    font-family: 'Dancing Script', cursive;
+}
+.page-header {
+    font-family: 'Lobster',cursive; 
+   
+}
+.jumbotron input {
+padding : 5px ; 
+border-radius: 12pt; 
+}

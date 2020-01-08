@@ -1,0 +1,117 @@
+.navbar-nav .nav-item .nav-link {
+    color: darkslategray;
+   
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: white;
+    font-weight: 600;
+    background-color: #343A40
+}
+
+.caption3 {
+   position: absolute;
+   top:140px;
+   left:-780px; 
+   color:black;
+   font-weight: bold;
+}
+.carousel-caption {
+    font-family: 'Dancing Script', cursive;
+}
+.page-header {
+    font-family: 'Lobster',cursive;
+}
+.jumbotron{
+    background: linear-gradient(#E9ECEF,white);
+}
+
+.jumbotron input {
+padding : 5px ; 
+border-radius: 12pt; 
+
+}
+.cards :hover{
+    opacity: 0.8;
+}
+.cont2 {
+    height:60px;
+    background-color: #46FF46;
+    padding-top:20px;
+    font-weight: 400;
+   
+}
+
+.accBtn{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif; 
+    color :#343A40;
+}
+.accBtn:hover {
+    color: white;
+    font-weight: 500;
+    background-color: #343A40
+}
+
+.question {
+    cursor: pointer;
+    font-weight: 700;
+}
+.map{
+    margin-left:150px;
+  margin-right:0px;
+
+}
+.cont3{
+    background-color: black; 
+    height:440px;
+    margin-right: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+.contact{
+    font-family: monospace;
+    color: white;
+    padding-top:30px;
+}
+
+/* .headGreen {
+    background-color: rgb(70, 255, 70);
+} */
+.imgR{
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+}
+
+.fa{
+    color: red;
+}
+
+.cont4 {
+    border-radius: 70px;
+    background:linear-gradient(#E9ECEF,white);
+    padding:5px;
+}
+.cont6{
+    padding:5px;
+    font-family: 'Dancing Script' , cursive;
+    font-weight: 500;
+    font-size: 30px;
+    opacity: 0.9;
+    background: linear-gradient(rgb(14, 13, 36),rgb(34, 34, 104));
+    color: white;
+    width:320px;
+    border-radius: 120px;
+}
+
+.cont7{
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns:2fr 1fr ;
+    background: linear-gradient(rgb(49, 44, 44),black);
+   padding-top:21px;
+  padding-left:370px;
+}

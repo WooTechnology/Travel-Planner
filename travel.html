@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Next Destination</title>
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Bad+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+    <script src="travel.js"></script> 
+      <link rel="stylesheet" href="travel.css">
+  </head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(70, 255, 70);"">
+                <a class="navbar-brand" href="#"><img src="travel planner.jpg" alt="Next Destination" ></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                  <ul class="navbar-nav mt-2 mt-lg-0 ml-auto">
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#">Register </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">User Login </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#" >Admin Login </a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link " href="#" >Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="w-100" src="resort1.jpg" alt="First slide" style ="height:400px">
+                    <div class="carousel-caption">
+                      <h3 style ="color: rgb(0, 0, 0);">Plan your Dream Vacation</h3>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="w-100" src="three.jpg" alt="Second slide" style="height: 400px;">
+                    <div class="carousel-caption">
+                      <h4>Live with no Excuses,</h4>
+                      <h1>Travel with no Regrets</h1>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img class="w-100" src="adventure.jpg" alt="Third slide" style="height: 400px;">
+                    <div class="caption3 carousel-caption">
+                      <h2>Choose your own Adventure</h2>
+                    </div>
+                  </div>
+                 
+                  <div class="carousel-item">
+                    <img class="w-100" src="resort2.jpg" alt="Fourth slide" style="height: 400px;">
+                    <div class="carousel-caption">
+                      <h3>Take only Memories , Leave only Footprints</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+         <hr>
+         <div class="page-header">
+          <h1 class="text-center ">Next Destination</h1>
+        </div>
+        <br>
+        <div class="container">
+          <div class="jumbotron text-center">
+            <h4 style="font-family: 'Fredoka One', cursive;">Search Places</h4>
+            <div class="col-xs-4">
+              <input id="form-autocomplete" class="form-control mdb-autocomplete" type="text"placeholder="Your dream Vacation">
+            </div>
+          </div>
+          <div class="card-deck">
+            <div class="card cards img-fluid" id="cardOne">
+              <img src="bg.jpg" alt="bg" style="height: 387px;">
+              <div class="card-img-overlay">
+              <div class="card-body text-center">
+                <i class='fas fa-place-of-worship' style='font-size:36px; color:#343A40;'></i>
+                <h4 class="card-text" style="font-family: 'Arima Madurai', cursive; font-weight: 700;">Popular Places</h4>
+                <hr><br>
+                <p class="card-text" style= "font-size:14px;">Whether you're looking for a cosmopolitan city, a picture-perfect island, a mountain retreat or something else entirely, the destinations on this ranking will help inspire you to book your next vacation.Plan your next trip to one of Next Destination's top vacation spots, including New York City,Orlando and Las Vegas.</p>
+                <button type="button" onclick="" class="btn btn-dark">Explore</button>
+              </div>
+              </div>
+            </div>
+            <div class="card cards img-fluid" id="cardTwo">
+              <img src="bg1.jpg" alt="bg" style="height: 387px;">
+              <div class="card-img-overlay">
+              <div class="card-body text-center">
+                <i class='fas fa-plane-departure' style='font-size:36px; color:#343A40'></i>
+                <h4 class="card-text "style="font-family: 'Arima Madurai', cursive;font-weight:700">Cheap Flights</h4><hr><br>
+                <p class="card-text" style= "font-size:14px;"> Next Destination can be your best resource for finding great ticket deals and cheap flights to your favorite destinations around the world. Our sophisticated search technology makes planning your next vacation easy and hassle-free. If you're looking for affordable airfare you can find it all here.</p>
+                <button type="button" onclick="" class="btn btn-dark">Explore</button>
+              </div>
+              </div>
+            </div>
+            <div class="card cards img-fluid" id="cardThree">
+              <img src="bg2.jpg" alt="bg" style="height: 387px;">
+              <div class="card-img-overlay">
+              <div class="card-body text-center">
+                <i class='fas fa-lightbulb' style='font-size:36px; color:#343A40;'></i>
+                <h4 class="card-text" style="font-family: 'Arima Madurai', cursive; font-weight: 700;">Travel Smart</h4><hr><br>
+                <p class="card-text" style= "font-size:14px;">Smart Travel - Book early and save.Get various vacation deals,heavy dicounts on hotel bookings along with the information about highest rated food outlets, recreation activities nearby,Packing tips and public transport information.</p>
+                <button type="button" onclick="" class="btn btn-dark">Explore</button>
+              </div>
+              </div>
+            </div>
+      </div>
+<br><br>
+<div class="cont6 container text-center">
+-Travelers'Reviews- 
+</div>
+<br>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="media container cont4">
+              <img class="align-self-center mr-3 imgR" src="fasolt.jpg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h6 class="mt-0">By traveler Sally J.</h6><h5><strong>Luxury Vacation to Peru</strong></h5>
+                <i class="fa fa-star fa-x" ></i><i class="fa fa-star fa-x" ></i><i class="fa fa-star fa-x" ></i><i class="fa fa-star fa-x"></i><i class="fa fa-star fa-x" ></i>
+                <p class="mb-0">This was our third time using Next Destination. Each one has been great but this one is probably the best of all. It was perfect in every way. It was literally door to door service.</p>
+              </div>
+            </div>
+    </div>
+    <div class="carousel-item">
+      <div class="media container cont4">
+              <img class="align-self-center mr-3 imgR" src="face.jpg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h6 class="mt-0">By traveler David E.</h6><h5><strong>Tanzania Travel</strong></h5>
+                <i class="fa fa-star fa-x" ></i><i class="fa fa-star fa-x"></i><i class="fa fa-star fa-x" ></i><i class="fa fa-star fa-x"></i>
+                <p class="mb-0">I have nothing but great things to say about this travel company, the trip planner, and our guide for the Safari. Our planner and his staff were wonderful from start to finish and always there for a phone call.<br>I won't be doing another trip without the help of our planner and this company!</p>
+              </div>
+            </div>
+    </div>
+    <div class="carousel-item">
+      <div class="media cont4 container">
+              <img class="align-self-center mr-3 imgR" src="face2.jpg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h6 class="mt-0">By traveler Ella J. </h6><h5><strong>Australia & New Zealand:Solo Trip</strong></h5>
+                <i class="fa fa-star fa-x" ></i><i class="fa fa-star fa-x" ></i><i class="fa fa-star fa-x" ></i><i class="fa fa-star fa-x" ></i><i class="fa fa-star fa-x" ></i>
+                <p class="mb-0">The travel designer from this travel company did an amazing job of organizing my trip.
+                  I am a single women traveler. I felt very safe with my accommodations</p>
+              </div>
+            </div>
+    </div>
+    <div class="carousel-item">
+      <div class="media cont4 container">
+              <img class="align-self-center mr-3 imgR" src="face3.jpg" alt="Generic placeholder image">
+              <div class="media-body">
+                <h6 class="mt-0">By traveler Robert M.</h6><h5><strong>Thailand-Family Trip</strong></h5>
+                <i class="fa fa-star fa-x" ></i><i class="fa fa-star fa-x" ></i><i class="fa fa-star fa-x" ></i><i class="fa fa-star fa-x" ></i><i class="fa fa-star fa-x" ></i>
+                <p class="mb-0">This travel team helped us plan a most memorable three-week trip to Thailand. Their knowledge and attention to detail made the trip a real pleasure. They were in regular contact with us to ensure we had all the information we needed and solicited feedback throughout our trip.</p>
+              </div>
+            </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<br><br>
+      <div class="cont2 text-center">
+        <h3 style="font-family: 'Bad Script', cursive;">Frequently Asked Questions(FAQs)<h3>
+      </div>   
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn accBtn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Biling & Payment 
+              </button>
+            </h2>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+              <div class="panel panel-default">
+                <div data-parent="#faq_accordion2" class="question" data-toggle="collapse" data-target="#refund">Q. When can I expect my refund?</div>
+                <p class="panel-collapse normal-content collapse col-xs-12" id="refund">When a reservation is cancelled the same day it was booked, funds for the Airline portion are not collected. Any pending charges you may have seen would have been a "pending hold" for verification. These funds will return to your available credit and will not reflect as a refund.  This process normally takes from 3 - 7 business days, depending on your banking institutions procedures.<br></p>
+              </div>
+              <div class="panel panel-default">
+                <div data-parent="#faq_accordion2" class="question" data-toggle="collapse" data-target="#email_advising">  Q. I received an email advising of a refund I did not request.</div>
+                <p class="panel-collapse normal-content collapse col-xs-12" id="email_advising">These refunds are typically for seat assignment requests that could not be fulfilled by the Airline or during a quality check if we detected an overcharge. This refund does not affect your airline ticket purchase.<br><br></p>
+              </div>
+              <div class="panel panel-default">
+                <div data-parent="#faq_accordion2" class="question" data-toggle="collapse" data-target="#duplicate_charges">  Q. I have duplicate charges for the same trip on my account.</div>
+                <p class="panel-collapse normal-content collapse col-xs-12" id="duplicate_charges">Verify with your bank what company the charges are coming from that have posted. Most tickets issued through Next Destination will have the description of NV or Las Vegas on your statement.  If you are certain there are posted duplicate charges from OneTravel, please contact the Billing Department for Assistance at <strong>7778889991</strong>.<br><br></p>
+                </div>
+                <div class="panel panel-default">
+                  <div data-parent="#faq_accordion2" class="question" data-toggle="collapse" data-target="#charged_more">  Q. I’ve been charged more than what was quoted.</div>
+                  <p class="panel-collapse normal-content collapse col-xs-12" id="charged_more">Confirm with your bank whether the charges in question have posted or are pending to your account. At the time of reservation a "pending charge" is placed on your account for the full amount. The bank/credit card company then puts a "hold" on that dollar amount, until the transaction either posts or is cleared. With a successful transaction, the charge will typically post to the account within 2 - 3 business days, at that time the money will be deducted from your account, and the "hold" will be released.  At times the "pending hold" can show on your account after the charge has posted. Please allow time for the "pending hold" to return to your available credit. This is dependent on your banking institutions policies.<br></p>
+                </div>
+          </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn accBtn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Flight FAQs
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+              <div class="panel panel-default">
+                <div data-parent="#faq_accordion" class="question" data-toggle="collapse" data-target="#e_ticket">Q. What is an "E" ticket?</div>
+                <p class="panel-collapse normal-content col-xs-12 collapse in" id="e_ticket" style="height: auto;">E-tickets, are offered by many major airlines, and allow you to travel without a paper ticket, eliminating the worry of leaving your tickets behind. Next Destination offers e-tickets when they are available. <br> <br>Bring government issued photo identification (such as a  driver’s license or passport) to the airport. E-ticketed passengers must have a printed boarding pass in order to proceed directly through security for check in at the gate. Customers with check-in baggage or E-tickets who do not have printed boarding passes must go to the ticket counter prior to going through security checkpoints.<br><br></p>
+              </div>
+              <div class="panel panel-default">
+                <div data-parent="#faq_accordion" class="question" data-toggle="collapse" data-target="#cancel_ticket">Q. How do I cancel this reservation?</div>
+                <p class="panel-collapse normal-content col-xs-12 collapse in" id="cancel_ticket" style="height: auto;">Most airline tickets issued are non-refundable, and non-transferable.   Name changes are not permitted. However, you may be able to exchange   your tickets for different dates. Penalty fees apply and not all tickets   are changeable. Please call our exchange department for details. <strong>(866) 883-0908</strong> <br><br></p>
+                </div>
+                <div class="panel panel-default">
+                  <div data-parent="#faq_accordion" class="question" data-toggle="collapse" data-target="#return_period">Q. What is a 'return period', and how long is it ?</div>
+                  <p class="panel-collapse normal-content col-xs-12 collapse in" id="return_period" style="height: auto;">The ‘return period’ is an amount of time referral traffic from an   affiliate partner is ‘tagged’ for that specific affiliate partner. The   ‘return period’ for the Next Deestination Affiliate Partner Program is 90 days. </p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn accBtn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Insurance
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+              <div class="panel panel-default">
+                <div data-parent="#faq_accordion3" class="question" data-toggle="collapse" data-target="#claim">Q. How do I file a claim?</div>
+                <p class="panel-collapse normal-content col-xs-12 collapse in" id="claim" style="height: auto;">The insured party should contact Seven Corners toll free number <strong>4445551100</strong>. Be prepared with dates of travel, ticket numbers,   passenger’s names and details of the reason for the claim including   medical documentation if applicable.<br><br></p>
+                </div>
+                <div class="panel panel-default">
+                  <div data-parent="#faq_accordion3" class="question collapsed" data-toggle="collapse" data-target="#emergency">Q. What if there is a travel emergency? </div>
+                  <p class="panel-collapse normal-content collapse col-xs-12" id="emergency">The insurance covers the following types of emergencies.<br>
+                  Reimburses up to Rs6000 a day for reasonable additional expenses if<br>
+                  Delayed for 12 hours or more due to:<br>
+                  •  Carrier delay such as mechanical difficulties or weather.<br>
+                  •  Lost passport, money, or travel documents.<br>
+                  •  Natural disaster.<br>
+                  •  Injury or sickness of the Insured or Traveling Companion. </p>
+                  </div>
+                  <div class="panel panel-default">
+                    <div data-parent="#faq_accordion3" class="question collapsed" data-toggle="collapse" data-target="#flight_insurance">Q. What’s does my flight insurance cover?</div>
+                        <div class="panel-collapse normal-content col-xs-12 collapse" id="flight_insurance" style="height: 0px;">
+                            <p>Unforeseen sickness, injury, or death of the Insured, a Traveling   Companion, Immediate Family Member, or Business Partner. (Certain   exclusions apply.) Requires medical documentation from a licensed M.D.   Pre-existing medical conditions may be excluded.<br><br>The Insured’s principal residence being made   uninhabitable by fire, flood or similar natural disaster, vandalism, or   burglary.</p>	
+                                <ul>
+                                  <li style="color:inherit;padding-bottom:inherit;line-height:inherit;">The Insured(s) being subpoenaed, required to serve on jury duty, hijacked, or quarantined.</li>
+                                  <li style="color:inherit;padding-bottom:inherit;line-height:inherit;">Being involved in or delayed due to an automobile accident en route to departure.</li>
+                                  <li style="color:inherit;padding-bottom:inherit;line-height:inherit;">Inclement weather that causes complete cessation of services for 24 hrs.</li>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <br><br>
+</div>
+</div>
+    <div class="cont7">
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=delhi%20connaught%20place&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.org">embedgooglemap.org</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:470px;width:600px;}</style></div>
+    </div>
+<hr>
+
+
+</body>
+</html>
