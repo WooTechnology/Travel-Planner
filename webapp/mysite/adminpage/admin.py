@@ -10,3 +10,6 @@ admin.site.register(Add_guide)
 admin.site.register(Add_hotel)
 admin.site.register(Add_package)
 admin.site.register(Add_place)
+
+#changing Admin header
+admin.site.site_header = "Next Destination"
