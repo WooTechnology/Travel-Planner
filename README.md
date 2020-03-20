@@ -3,6 +3,8 @@ A web based application which aims to provide a complete travelling package to t
 
 #This project was made under WOOTECH WINTER MENTORSHIP PROGRAM 2019-2020 under my mentorship.
  Contributors:
- 
+ @aasthasaxena
+ @hansikarajput
+ @shreyagupta
  
  
